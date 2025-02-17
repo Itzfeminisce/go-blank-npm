@@ -1,0 +1,6 @@
+# .npmignore
+src/
+vite.config.ts
+tsconfig.json
+.gitignore
+*.md

@@ -1,0 +1,26 @@
+{
+  "name": "go-blank-npm",
+  "version": "1.0.2",
+  "main": "./dist/go-blank.umd.js",
+  "module": "./dist/go-blank.es.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.7.1"
+  },
+  "keywords": [
+    "go-blank",
+    "website-blanker",
+    "content-filter",
+    "access-control"
+  ]
+}
