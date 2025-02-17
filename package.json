@@ -1,6 +1,6 @@
 {
   "name": "go-blank-npm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./dist/go-blank.umd.js",
   "module": "./dist/go-blank.es.js",
   "types": "./dist/index.d.ts",

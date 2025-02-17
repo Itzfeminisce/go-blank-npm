@@ -33,8 +33,6 @@ export const initWebsiteBlanker = async () => {
       currentUrl.includes(it.url)
     );
 
-    console.log({ currentUrl, hostname, website });
-
     // Clear any existing overlay first
     removeBlankEffect();
 
